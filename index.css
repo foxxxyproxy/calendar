@@ -1,0 +1,72 @@
+:root {
+  --light-gray: #dadce0;
+  --light-blue: #1b9ce2;
+  --light-them: #f7f8f8;
+}
+
+body {
+  margin: 0;
+}
+
+.days_name {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 10vh;
+}
+
+#app-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 90vh;
+}
+
+.days_name p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.day {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: var(--light-them);
+  transition: background-color 200ms, color 200ms;
+}
+
+.name {
+  padding-bottom: 5px;
+}
+
+.weekend {
+  color: var(--light-blue);
+  font-weight: 600;
+}
+.selected {
+  background-color: var(--light-blue);
+  color: white;
+}
+.Mon {
+  grid-column: 1;
+}
+.Tue {
+  grid-column: 2;
+}
+.Wed {
+  grid-column: 3;
+}
+.Thu {
+  grid-column: 4;
+}
+.Fri {
+  grid-column: 5;
+}
+.Sat {
+  grid-column: 6;
+}
+.Sun {
+  grid-column: 7;
+}
