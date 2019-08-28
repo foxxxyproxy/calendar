@@ -9,3 +9,5 @@ I've started this project as homework for [learnjavascript.online](https://learn
     npx http-server
 
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+UPDATE: you can use URL search parameters in format: ?date=01-08-2019
